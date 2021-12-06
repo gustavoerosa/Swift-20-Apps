@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBC669F5274FA62C00121359 /* EffectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC669F4274FA62C00121359 /* EffectCollectionViewCell.swift */; };
+		BBD6E4AF274E7C6C004AA54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6E4AE274E7C6C004AA54B /* AppDelegate.swift */; };
+		BBD6E4B1274E7C6C004AA54B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6E4B0274E7C6C004AA54B /* SceneDelegate.swift */; };
+		BBD6E4B3274E7C6C004AA54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6E4B2274E7C6C004AA54B /* ViewController.swift */; };
+		BBD6E4B6274E7C6C004AA54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD6E4B4274E7C6C004AA54B /* Main.storyboard */; };
+		BBD6E4B8274E7C70004AA54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD6E4B7274E7C70004AA54B /* Assets.xcassets */; };
+		BBD6E4BB274E7C70004AA54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD6E4B9274E7C70004AA54B /* LaunchScreen.storyboard */; };
+		BBD6E4C3274E84A6004AA54B /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6E4C2274E84A6004AA54B /* EffectsViewController.swift */; };
+		BBD6E4C5274E84D6004AA54B /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6E4C4274E84D6004AA54B /* FinalViewController.swift */; };
+		BBD6E4C7274EA0B1004AA54B /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6E4C6274EA0B1004AA54B /* FilterManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBC669F4274FA62C00121359 /* EffectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectCollectionViewCell.swift; sourceTree = "<group>"; };
+		BBD6E4AB274E7C6C004AA54B /* FotoRoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoRoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD6E4AE274E7C6C004AA54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBD6E4B0274E7C6C004AA54B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBD6E4B2274E7C6C004AA54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBD6E4B5274E7C6C004AA54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBD6E4B7274E7C70004AA54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBD6E4BA274E7C70004AA54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBD6E4BC274E7C70004AA54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD6E4C2274E84A6004AA54B /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
+		BBD6E4C4274E84D6004AA54B /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		BBD6E4C6274EA0B1004AA54B /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBD6E4A8274E7C6C004AA54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBD6E4A2274E7C6C004AA54B = {
+			isa = PBXGroup;
+			children = (
+				BBD6E4AD274E7C6C004AA54B /* FotoRoid */,
+				BBD6E4AC274E7C6C004AA54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBD6E4AC274E7C6C004AA54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBD6E4AB274E7C6C004AA54B /* FotoRoid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD6E4AD274E7C6C004AA54B /* FotoRoid */ = {
+			isa = PBXGroup;
+			children = (
+				BBD6E4AE274E7C6C004AA54B /* AppDelegate.swift */,
+				BBD6E4B0274E7C6C004AA54B /* SceneDelegate.swift */,
+				BBD6E4B2274E7C6C004AA54B /* ViewController.swift */,
+				BBD6E4B4274E7C6C004AA54B /* Main.storyboard */,
+				BBC669F4274FA62C00121359 /* EffectCollectionViewCell.swift */,
+				BBD6E4C6274EA0B1004AA54B /* FilterManager.swift */,
+				BBD6E4C4274E84D6004AA54B /* FinalViewController.swift */,
+				BBD6E4C2274E84A6004AA54B /* EffectsViewController.swift */,
+				BBD6E4B7274E7C70004AA54B /* Assets.xcassets */,
+				BBD6E4B9274E7C70004AA54B /* LaunchScreen.storyboard */,
+				BBD6E4BC274E7C70004AA54B /* Info.plist */,
+			);
+			path = FotoRoid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBD6E4AA274E7C6C004AA54B /* FotoRoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD6E4BF274E7C70004AA54B /* Build configuration list for PBXNativeTarget "FotoRoid" */;
+			buildPhases = (
+				BBD6E4A7274E7C6C004AA54B /* Sources */,
+				BBD6E4A8274E7C6C004AA54B /* Frameworks */,
+				BBD6E4A9274E7C6C004AA54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FotoRoid;
+			productName = FotoRoid;
+			productReference = BBD6E4AB274E7C6C004AA54B /* FotoRoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBD6E4A3274E7C6C004AA54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BBD6E4AA274E7C6C004AA54B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BBD6E4A6274E7C6C004AA54B /* Build configuration list for PBXProject "FotoRoid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBD6E4A2274E7C6C004AA54B;
+			productRefGroup = BBD6E4AC274E7C6C004AA54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBD6E4AA274E7C6C004AA54B /* FotoRoid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBD6E4A9274E7C6C004AA54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD6E4BB274E7C70004AA54B /* LaunchScreen.storyboard in Resources */,
+				BBD6E4B8274E7C70004AA54B /* Assets.xcassets in Resources */,
+				BBD6E4B6274E7C6C004AA54B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBD6E4A7274E7C6C004AA54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD6E4C5274E84D6004AA54B /* FinalViewController.swift in Sources */,
+				BBD6E4B3274E7C6C004AA54B /* ViewController.swift in Sources */,
+				BBD6E4C3274E84A6004AA54B /* EffectsViewController.swift in Sources */,
+				BBD6E4AF274E7C6C004AA54B /* AppDelegate.swift in Sources */,
+				BBD6E4B1274E7C6C004AA54B /* SceneDelegate.swift in Sources */,
+				BBD6E4C7274EA0B1004AA54B /* FilterManager.swift in Sources */,
+				BBC669F5274FA62C00121359 /* EffectCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBD6E4B4274E7C6C004AA54B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBD6E4B5274E7C6C004AA54B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBD6E4B9274E7C70004AA54B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBD6E4BA274E7C70004AA54B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBD6E4BD274E7C70004AA54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBD6E4BE274E7C70004AA54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBD6E4C0274E7C70004AA54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FotoRoid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gustavo-Rosa.FotoRoid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BBD6E4C1274E7C70004AA54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FotoRoid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gustavo-Rosa.FotoRoid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBD6E4A6274E7C6C004AA54B /* Build configuration list for PBXProject "FotoRoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD6E4BD274E7C70004AA54B /* Debug */,
+				BBD6E4BE274E7C70004AA54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD6E4BF274E7C70004AA54B /* Build configuration list for PBXNativeTarget "FotoRoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD6E4C0274E7C70004AA54B /* Debug */,
+				BBD6E4C1274E7C70004AA54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBD6E4A3274E7C6C004AA54B /* Project object */;
+}
